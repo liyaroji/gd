@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+    background-color: #222;
+    color: white;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+    margin: 0;
+}
+
+canvas {
+    display: block;
+   background: url("https://static.vecteezy.com/system/resources/previews/045/895/106/non_2x/space-background-cute-flat-style-template-with-stars-in-outer-space-vector.jpg") no-repeat center center fixed;
+     margin: auto;
+}
+
+.game-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    background: orange;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+
+#score {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    font-weight: bold;
+}
